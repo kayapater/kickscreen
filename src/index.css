@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Kick";
+  src: url("/fonts/kick-font.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e0e10;
+  color: #efeff1;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
