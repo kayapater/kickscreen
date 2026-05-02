@@ -69,6 +69,8 @@ function App() {
                 <span>·</span>
                 <a href="/gizlilik.html" target="_blank" className="hover:text-white transition-colors">Gizlilik</a>
                 <span>·</span>
+                <a href="https://github.com/kayapater/kickscreen" target="_blank" className="hover:text-white transition-colors">GitHub</a>
+                <span>·</span>
                 <a href="https://x.com/kayapater" target="_blank" className="hover:text-white transition-colors">İletişim</a>
               </div>
               <p className="mt-4 text-[10px] text-[#4b5563]">Kick.com ile bağlantılı resmi bir hizmet değildir.</p>

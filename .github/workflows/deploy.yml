@@ -3,7 +3,7 @@ name: Deploy to Cloudflare Pages
 on:
   push:
     branches:
-      - main # Ana branch artık 'main' olarak ayarlandı
+      - production # Ana branch artık 'production' olarak ayarlandı
 
 jobs:
   deploy:
@@ -30,4 +30,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist --project-name=kickscreen --branch=main
+          command: pages deploy dist --project-name=kickscreen --branch=production
